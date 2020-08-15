@@ -110,7 +110,23 @@ export default {
           controls.update();
 			  };
 			  animate();
-    }
+    },
+    //length = length of cube, cubeNum = dimension
+    generateGrid(length, cubeNum) {
+      var height = 0;
+      for (let i = 0; i < cubeNum; i++) {
+        for (let i = 0; i < cubeNum; i++) {
+
+        }
+        for (let i = 0; i < cubeNum; i++) {
+
+        }
+        for (let i = 0; i < cubeNum; i++) {
+
+        }
+      }
+      height += length;
+    },
   },
 
   mounted () {
